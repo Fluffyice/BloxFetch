@@ -7,7 +7,7 @@ import json
 
 # ---------- USER CONFIGURABLE SECTION -----------------
 token = ""  # Stores the bot's token. Used to pass the bot's token into bot.run in order to run the bot.
-bot = commands.Bot(command_prefix="", intents=discord.Intents.all()) # Changing the bot's intents will break functionality! Only touch this if you know what you're doing!
+bot = commands.Bot(command_prefix="", intents=discord.Intents.all())  # Changing the bot's intents will break functionality! Only touch this if you know what you're doing!
 bot.Prefix = "!"  # Defines the bot's command prefix. 
 # ---------- END OF USER CONFIGURABLE SECTION ----------
 
